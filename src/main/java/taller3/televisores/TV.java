@@ -58,7 +58,7 @@ public class TV {
 
 	}
 	
-	static int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
 	
