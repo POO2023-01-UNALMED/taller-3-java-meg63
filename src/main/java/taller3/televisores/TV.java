@@ -49,6 +49,12 @@ public class TV {
 	
 	public int getCanal() {
 		return canal;
+
+	}
+
+	static void setNumTV(int num){
+			numTV=num;
+
 	}
 	
 	static int getnumTV() {
