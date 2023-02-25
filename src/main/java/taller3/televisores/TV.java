@@ -96,7 +96,7 @@ public class TV {
 	
 	public void volumenUp() {
 		if (estado==true) {
-			if (volumen >=1 && volumen<120) {
+			if (volumen >=0 && volumen<7) {
 				volumen=volumen+1;	
 			}
 		}
@@ -104,7 +104,7 @@ public class TV {
 	
 	public void volumenDown() {
 		if (estado==true) {
-			if (volumen >=2 && volumen<=120) {
+			if (volumen >0 && volumen<=7) {
 				volumen=volumen-1;	
 			}
 		}
